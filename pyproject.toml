@@ -1,0 +1,21 @@
+[project]
+name = "mlflow-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "salmacmpeg",email = "salmacmpeg@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "mlflow (>=3.1.4,<4.0.0)",
+    "graphql-core (>=3.2.6,<4.0.0)",
+    "imblearn (>=0.0,<0.1)",
+    "imbalanced-learn (>=0.13.0,<0.14.0)",
+    "xgboost (>=3.0.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
