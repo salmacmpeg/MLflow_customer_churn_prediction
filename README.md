@@ -41,9 +41,9 @@ For each model, the following metrics are computed and logged via MLflow:
 - Make your own virtual environemnt .
 - Install `poetry` then initialize it using `poetry init -n` in the terminal.
 - Install dependencies using `poetry install`in the terminal.
-- Run the `initialization.py` file to set the mlflow uri enviorment variable using `mlflow.set_tracking_uri("http://localhost:5000").
+- Run the `initialization.py` file to set the mlflow uri enviorment variable using `mlflow.set_tracking_uri("http://localhost:5000")`.
 - Run the mlflow UI server using `mlflow server` in the terminal.
-- Run the **(mlfow_experiment.ipynb) notebook.
+- Run the `(mlfow_experiment.ipynb)` notebook.
 - Then visit the mlflow UI server http://localhost:5000 to inspect all tracked runs.
 - After you finish terminate the server by typing `ctrl+c` in the terminal.
 
